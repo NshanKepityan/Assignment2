@@ -191,7 +191,7 @@ namespace Complex
             }
             else
             {
-                Console.WriteLine("The value is indeterminate.");
+                Console.WriteLine("An indeterminate value.");
                 throw new System.Exception();
             }
         }
