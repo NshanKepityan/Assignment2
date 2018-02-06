@@ -61,7 +61,7 @@ namespace Complex
         //print method for myDouble(prints the value of this.num)
         public void print()
         {
-            Console.WriteLine(this.num);
+            Console.WriteLine("{0,R}",this.num);
         }        
         //sqrt method for myDouble(returns the square root of this.num)
         public double sqrt()
